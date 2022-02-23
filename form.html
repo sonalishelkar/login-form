@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            width: 100%;
+            height: 400px;
+            background-image: radial-gradient(circle,rgb(255, 5, 172), rgb(10, 9, 90));
+            background-size: cover;
+            
+            background-position: fixed;
+        }
+        .main2{
+            background-color: rgb(4, 2, 61);
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15%;
+            margin-bottom: 15%;
+            padding: 20px 20px 20px 20px;
+            border-radius: 10px;
+
+        }
+        .one{
+            height: 40px;
+            color: white;
+            font-size: 20px;
+        }
+        .two{
+            width: 100%; 
+            height: 30px; 
+            background-color: rgb(255, 5, 172);
+            color:  rgb(4, 2, 61); 
+            border: none; 
+            border-radius: 10px;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form >
+        <table class="main2">
+        <tr class="one">
+            <td>
+                First Name 
+            </td>
+            <td>
+                <input type="text" name="fname" style="border: none; border: 1px solid black; border-radius: 5px; height: 22px;">
+            </td>
+        </tr>
+        <tr class="one">
+            <td>
+                Last Name 
+            </td>
+            <td>
+                <input type="text" name="fname" style="border: none; border: 1px solid black; border-radius: 5px; height: 22px;">
+            </td>
+        </tr>
+        <tr class="one">
+            <td>
+                Email 
+            </td>
+            <td>
+                <input type="Email" name="Email" style="border: none; border: 1px solid black; border-radius: 5px; height: 22px;">
+            </td>
+        </tr>
+        <tr class="one">
+            <td>
+                Gender 
+            </td>
+            <td>
+                <input type="radio" name="gender" value="male"> Male 
+                <input type="radio" name="gender" value="Female"> Female 
+            </td>
+        </tr>
+        <tr class="one">
+            <td>
+                Password 
+            </td>
+            <td>
+                <input type="password" name="Password" style="border: none; border: 1px solid black; border-radius: 5px; height: 22px;">
+            </td>
+        </tr>
+        <tr class="one">
+            <td colspan="2">
+                <button class="two">Submit</button>
+            </td>
+        </tr>
+    </table>
+    
+    </form>
+
+</body>
+</html>
